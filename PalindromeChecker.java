@@ -21,6 +21,7 @@ public class PalindromeChecker {
 
     public static boolean esPalindromo(String cadena){
         String cadenaFrase = cadena.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+
         return cadenaFrase.equals(new StringBuilder(cadenaFrase).reverse().toString());
     }
 
