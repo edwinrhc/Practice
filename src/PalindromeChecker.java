@@ -9,17 +9,17 @@ public class PalindromeChecker {
   public static void main(String[] args){
 
       Scanner scanner = new Scanner(System.in);
-      Boolean palindromo = false;
 
-      while (!palindromo){
-          System.out.println("Ingrese palabra o frase");
+      Boolean esPalabra = false;
+
+      while (!esPalabra){
+          System.out.println("Ingrese la palabra : ");
           String cadena = scanner.nextLine();
-
-          if(isPalindromo(cadena)){
-              System.out.println("Si es palíndromo la palbra -> " + cadena);
-              palindromo = true;
+          if (isPalindromo(cadena)) {
+              System.out.println("Si es palabra Palindromo: " + cadena);
+              esPalabra = true;
           }else{
-              System.out.println("No es palíndromo");
+              System.out.println("No es palabra Palindromo: " + cadena);
           }
 
       }
@@ -30,10 +30,11 @@ public class PalindromeChecker {
 
   public static boolean isPalindromo(String cadena){
 
-      String isPalindromo = cadena.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
-      return isPalindromo.equals(new StringBuilder(isPalindromo).reverse().toString());
+      String Palabra = cadena.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+      return Palabra.equals(new StringBuilder(Palabra).reverse().toString());
 
   }
+
 
 
 
