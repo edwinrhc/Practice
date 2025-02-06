@@ -1,7 +1,9 @@
+package src;
+
 public class Fibonacci {
 
     public static void main(String[] args) {
-        int n = 10; // Número de términos en la secuencia de Fibonacci
+        int n = 10; /* Número de términos en la secuencia de Fibonacci */
         int suma = 0; // Variable para almacenar la suma de los términos
 
         System.out.print("Secuencia de Fibonacci:\n");
