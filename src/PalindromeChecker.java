@@ -1,5 +1,6 @@
 package src;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PalindromeChecker {
@@ -9,7 +10,6 @@ public class PalindromeChecker {
   public static void main(String[] args){
 
       Scanner scanner = new Scanner(System.in);
-
       Boolean esPalabra = false;
 
       while (!esPalabra){
@@ -21,19 +21,18 @@ public class PalindromeChecker {
           }else{
               System.out.println("No es palabra Palindromo: " + cadena);
           }
-
       }
-
       scanner.close();
 
   }
 
-  public static boolean isPalindromo(String cadena){
 
-      String Palabra = cadena.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
-      return Palabra.equals(new StringBuilder(Palabra).reverse().toString());
 
-  }
+    public static boolean isPalindromo(String cadena){
+      String palabra = cadena.replaceAll("[^a-zA-Z0-9^]","").toLowerCase();
+      return palabra.equals(new StringBuilder(palabra).reverse().toString());
+    }
+
 
 
 
