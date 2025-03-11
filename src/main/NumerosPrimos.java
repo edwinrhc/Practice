@@ -1,6 +1,5 @@
-package src;
+package src.main;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class NumerosPrimos {

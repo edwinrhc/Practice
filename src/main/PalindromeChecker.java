@@ -1,6 +1,5 @@
-package src;
+package src.main;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class PalindromeChecker {

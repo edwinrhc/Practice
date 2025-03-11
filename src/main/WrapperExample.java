@@ -1,4 +1,4 @@
-package src;
+package src.main;
 
 public class WrapperExample {
 
