@@ -5,7 +5,7 @@ import src.main.Digitize;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class DigitizeExampleTests {
+public class DigitizeExampleTest {
 
     @Test
     public void testBasicCases() {
