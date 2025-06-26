@@ -1,0 +1,51 @@
+package src.main;
+
+import java.util.Arrays;
+
+public class Practice {
+
+    /*1. Code as fast as you can! You need to double the integer and return it. */
+
+/* public static int doubleInteger(int i) {
+
+        return i * 2; // Multipliccamops por 2 y retornamos el resultado
+    }
+
+    public static void main(String[] args){
+        // Caso de prueba
+        System.out.println(doubleInteger(2));
+        System.out.println(doubleInteger(5));
+        System.out.println(doubleInteger(0));
+        System.out.println(doubleInteger(-3));
+
+
+    }
+  */
+
+ /*
+ * In this Kata we are passing a number (n) into a function. Your code will determine if the number passed is even (or not).
+ * The function needs to return either a true or false.
+ * Numbers may be positive or negative, integers or floats.
+ * Floats with decimal part non equal to zero will be considered UNeven for this kata.
+ * */
+
+    public static void main(String[] args) {
+
+        System.out.println(isEven());
+
+
+    }
+
+    public static boolean isEven(double n) {
+        if( n % 1 != 0 ){
+            return false;
+        }
+        return ((int)n) % 2 == 0;
+    }
+
+
+
+
+}
+
+
