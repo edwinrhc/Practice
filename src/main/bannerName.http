@@ -1,0 +1,2 @@
+### Banner de asteriscos para “EDWIN”
+GET http://localhost:8091/banner?name=EDWIN
