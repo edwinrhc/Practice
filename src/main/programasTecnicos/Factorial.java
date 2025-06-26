@@ -21,7 +21,6 @@ public class Factorial {
      * Nota: Genera la representación en texto del cálculo del factorial:
      *  "n! = n x (n-1) x ... x 1 = resultado"
      */
-
     public static String factorialConExpresion(int n){
         // Caso especial
         if(n == 0){

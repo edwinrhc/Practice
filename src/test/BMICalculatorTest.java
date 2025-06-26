@@ -2,7 +2,7 @@ package src.test;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import src.main.BMICalculator;
+import src.main.otros.BMICalculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,7 +1,7 @@
 package src.test;
 
 import org.junit.Test;
-import src.main.Split;
+import src.main.otros.Split;
 
 import static org.junit.Assert.assertArrayEquals;
 

@@ -2,7 +2,7 @@ package src.test;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import src.main.Grasshopper;
+import src.main.otros.Grasshopper;
 
 import java.util.stream.Stream;
 

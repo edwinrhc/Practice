@@ -1,4 +1,4 @@
-package src.main;
+package src.main.otros;
 
 //Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
 public class Greeting {

@@ -1,6 +1,4 @@
-package src.main;
-
-import java.util.Arrays;
+package src.main.otros;
 
 public class Practice {
 

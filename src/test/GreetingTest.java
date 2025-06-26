@@ -1,7 +1,7 @@
 package src.test;
 
 import org.junit.Test;
-import src.main.Greeting;
+import src.main.otros.Greeting;
 
 import static org.junit.Assert.assertEquals;
 

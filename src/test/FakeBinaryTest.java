@@ -1,7 +1,7 @@
 package src.test;
 
 import org.junit.Test;
-import src.main.FakeBinary;
+import src.main.otros.FakeBinary;
 
 import static org.junit.Assert.assertEquals;
 
