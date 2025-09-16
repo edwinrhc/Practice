@@ -1,11 +1,11 @@
 package src.test;
 
 import org.junit.Test;
-import src.main.Digitize;
+import src.main.otros.Digitize;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class DigitizeExampleTests {
+public class DigitizeExampleTest {
 
     @Test
     public void testBasicCases() {

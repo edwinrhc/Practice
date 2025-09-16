@@ -1,4 +1,4 @@
-package src.main;
+package src.main.programasTecnicos;
 
 public class Fibonacci {
 
