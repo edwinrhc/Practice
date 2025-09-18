@@ -9,8 +9,10 @@ public class Exercice {
 //        sumArray();
 //        // Exercise 02
 //        searchArray();
-
-        reverseArray();
+//        // Exercise 03
+//        reverseArray();
+//        // Exercise 04
+        maxNumber();
     }
 
     //Exercise 01 - Crea un programa que guarde en un arreglo (int[]) los números del 1 al 5 y muestre la suma total.
@@ -61,6 +63,24 @@ public class Exercice {
             System.out.print(reverse[i] + " ");
         }
 
+    }
+
+
+/*  //Exercise 04   Ejercicio: encontrar el número mayor en un array
+    Crea un programa en Java que:
+    Guarde en un array los números {12, 45, 7, 23, 56, 9}.
+    Recorra el array y determine cuál es el número más grande.
+    Lo imprima en pantalla.*/
+    public static void maxNumber(){
+        int[] numbers = {12,45,7,23,56,9};
+        int max = numbers[0];
+        for(int i = 0; i< numbers.length; i++){
+            if(numbers[i] > max){
+                max = numbers[i];
+            }
+        }
+
+        System.out.println("The max number is: " + max);
     }
 
 }
