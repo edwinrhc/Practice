@@ -12,7 +12,10 @@ public class Exercice {
 //        // Exercise 03
 //        reverseArray();
 //        // Exercise 04
-        maxNumber();
+//        maxNumber();
+        // Exercise 05
+        averageArray();
+
     }
 
     //Exercise 01 - Crea un programa que guarde en un arreglo (int[]) los números del 1 al 5 y muestre la suma total.
@@ -65,22 +68,46 @@ public class Exercice {
 
     }
 
-
 /*  //Exercise 04   Ejercicio: encontrar el número mayor en un array
     Crea un programa en Java que:
     Guarde en un array los números {12, 45, 7, 23, 56, 9}.
     Recorra el array y determine cuál es el número más grande.
     Lo imprima en pantalla.*/
     public static void maxNumber(){
-        int[] numbers = {12,45,7,23,56,9};
-        int max = numbers[0];
-        for(int i = 0; i< numbers.length; i++){
-            if(numbers[i] > max){
-                max = numbers[i];
-            }
-        }
-
+      int[] numbers = {12,45,7,23,56,9};
+      int max = numbers[0];
+      for(int i = 0; i < numbers.length; i++){
+          if(numbers[i] > max){
+              max = numbers[i];
+          }
+      }
         System.out.println("The max number is: " + max);
     }
+
+/*    Exercise 05: promedio de un array
+    Crea un programa que:
+    Guarde en un array los números {8, 6, 9, 10, 7}.
+    Calcule la suma total de los elementos.
+    Saque el promedio dividiendo la suma entre la cantidad de elementos (length).
+    Imprima el promedio en pantalla.
+💡 Pistas:
+    Paso 1: declara el array.
+    Paso 2: inicializa una variable sum = 0.
+    Paso 3: recorre el array y acumula en sum.
+    Paso 4: double promedio = (double) sum / numbers.length;*/
+    public static void averageArray(){
+        // Guardando
+        int[] numbers = { 8,6,9,10,7};
+        int sum = 0;
+        double promedio;
+        for(int i =0; i < numbers.length; i++){
+            sum += numbers[i];
+        }
+        promedio = (double) sum / numbers.length;
+        System.out.println("The average is: " + promedio);
+
+    }
+
+
 
 }
